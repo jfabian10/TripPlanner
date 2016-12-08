@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  FinalProject
 //
-//  Created by CS3714 on 12/7/16.
+//  Created by Jesus Fabian on 12/7/16.
 //  Copyright © 2016 CS3714. All rights reserved.
 //
 

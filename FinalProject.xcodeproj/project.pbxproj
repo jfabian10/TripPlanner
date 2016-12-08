@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		B71551871DF8B44F00426F4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71551861DF8B44F00426F4A /* AppDelegate.swift */; };
-		B71551891DF8B44F00426F4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71551881DF8B44F00426F4A /* ViewController.swift */; };
 		B715518C1DF8B44F00426F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B715518A1DF8B44F00426F4A /* Main.storyboard */; };
 		B715518E1DF8B44F00426F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B715518D1DF8B44F00426F4A /* Assets.xcassets */; };
 		B71551911DF8B44F00426F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B715518F1DF8B44F00426F4A /* LaunchScreen.storyboard */; };
 		B715519C1DF8B45000426F4A /* FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B715519B1DF8B45000426F4A /* FinalProjectTests.swift */; };
 		B71551A71DF8B45000426F4A /* FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71551A61DF8B45000426F4A /* FinalProjectUITests.swift */; };
+		B71551B51DF8E07300426F4A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71551B41DF8E07300426F4A /* HomeViewController.swift */; };
+		B71551B71DF8EAD700426F4A /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71551B61DF8EAD700426F4A /* CityViewController.swift */; };
+		B71551BD1DF9062200426F4A /* RestaurantsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71551BC1DF9062200426F4A /* RestaurantsTableViewController.swift */; };
+		B71551BF1DF9063400426F4A /* HotelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71551BE1DF9063400426F4A /* HotelsTableViewController.swift */; };
+		B71551C11DF91BC100426F4A /* SightseeingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71551C01DF91BC100426F4A /* SightseeingTableViewController.swift */; };
+		B71551C31DF9202600426F4A /* IteneraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71551C21DF9202600426F4A /* IteneraryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		B71551831DF8B44F00426F4A /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71551861DF8B44F00426F4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B71551881DF8B44F00426F4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B715518B1DF8B44F00426F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B715518D1DF8B44F00426F4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B71551901DF8B44F00426F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		B71551A21DF8B45000426F4A /* FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71551A61DF8B45000426F4A /* FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectUITests.swift; sourceTree = "<group>"; };
 		B71551A81DF8B45000426F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B71551B41DF8E07300426F4A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
+		B71551B61DF8EAD700426F4A /* CityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		B71551BC1DF9062200426F4A /* RestaurantsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsTableViewController.swift; sourceTree = "<group>"; };
+		B71551BE1DF9063400426F4A /* HotelsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelsTableViewController.swift; sourceTree = "<group>"; };
+		B71551C01DF91BC100426F4A /* SightseeingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SightseeingTableViewController.swift; sourceTree = "<group>"; };
+		B71551C21DF9202600426F4A /* IteneraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IteneraryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				B71551861DF8B44F00426F4A /* AppDelegate.swift */,
-				B71551881DF8B44F00426F4A /* ViewController.swift */,
+				B71551C21DF9202600426F4A /* IteneraryViewController.swift */,
+				B71551BE1DF9063400426F4A /* HotelsTableViewController.swift */,
+				B71551BC1DF9062200426F4A /* RestaurantsTableViewController.swift */,
+				B71551B41DF8E07300426F4A /* HomeViewController.swift */,
+				B71551C01DF91BC100426F4A /* SightseeingTableViewController.swift */,
+				B71551B61DF8EAD700426F4A /* CityViewController.swift */,
 				B715518A1DF8B44F00426F4A /* Main.storyboard */,
 				B715518D1DF8B44F00426F4A /* Assets.xcassets */,
 				B715518F1DF8B44F00426F4A /* LaunchScreen.storyboard */,
@@ -262,8 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B71551891DF8B44F00426F4A /* ViewController.swift in Sources */,
 				B71551871DF8B44F00426F4A /* AppDelegate.swift in Sources */,
+				B71551C31DF9202600426F4A /* IteneraryViewController.swift in Sources */,
+				B71551BD1DF9062200426F4A /* RestaurantsTableViewController.swift in Sources */,
+				B71551B51DF8E07300426F4A /* HomeViewController.swift in Sources */,
+				B71551B71DF8EAD700426F4A /* CityViewController.swift in Sources */,
+				B71551C11DF91BC100426F4A /* SightseeingTableViewController.swift in Sources */,
+				B71551BF1DF9063400426F4A /* HotelsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U3465V32BF;
 				INFOPLIST_FILE = FinalProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jesusfabian.FinalProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U3465V32BF;
 				INFOPLIST_FILE = FinalProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jesusfabian.FinalProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
